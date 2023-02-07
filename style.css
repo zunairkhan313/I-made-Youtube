@@ -1,0 +1,21 @@
+@media  (max-width:1200px) {
+#first , #sec , #third , #four , #five , #six , #seven , #eight , #nine , #ten , #ele , #twel{
+    width: 280px;
+    margin-left: 12px;
+    
+}
+#fi , #se , #th , #fo , #fi , #si , #sev , #ei{
+    width: 180px;
+    
+}
+#z , #u , #n , #a , #i , #r , #e , #t , #y , #u{
+    font-size: small 
+}
+.col-1>ul>li{
+    font-size: small;
+}
+.fa-bars{ 
+    margin-left: 30px 
+}
+
+}

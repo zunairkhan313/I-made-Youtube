@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"> 
+    <title>Hello, world!</title>
+<link rel="stylesheet" href="style.css">
+<style>
+   #aa{
+    font-size: 30px;
+   }
+   .form-control{
+   width: 400px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+   }
+   
+   .d-flex{
+    margin: auto;
+    
+   }
+   #b{
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    width: 70px;
+   }
+   #shorts{
+    margin-left: -8px;
+   }
+   .bb ul{
+    list-style-type: none;
+    margin-top: 20px;
+    
+   }
+   .bb ul>li{
+    margin-top: 20px;
+    background-color: rgba(128, 128, 128, 0.151);
+    padding: 3px;
+    border-radius: 10px;
+    padding-left: 6px;
+   }
+   .bb ul>li>a{
+    text-decoration: none;
+    color: black;
+   }
+  
+   .btn-outline-primary{
+    margin-left: 35px;
+    border-radius: 20px;
+    
+   }
+   
+   .col-1 li{
+list-style-type: none;
+margin-top: 50px;
+   }
+   .col-1 li a{
+    text-decoration: none;
+    color: black;
+   }
+   .offcanvas{
+    overflow-y: scroll;
+   }
+   .fa-magnifying-glass{
+    padding: 10px;
+ border: 1px solid black;
+ 
+  min-width: 50px;
+  text-align: center;
+   }
+   .c{
+    background-color: rgba(128, 128, 128, 0.24);
+    border-radius: 10px;
+   }
+   .shorts2{
+    margin-left: 15px;
+   }
+   .fa-solid{
+    margin-right: 20px;
+   }
+  
+   
+   
+</style>
+
+  </head>
+  <body>
+    <nav class="navbar navbar-light bg-light">
+  <div class="container">
+    <a style="margin-left: -60px;" class="btn " data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+      <i style="font-size: xx-large;" class="fa-solid fa-bars"></i>
+</a>
+<img width="150px" src="./download-removebg-preview (1).png" alt="">
+
+
+<div style="width: 20%;" class="offcanvas offcanvas-start " tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+  <div class="bb">
+    <img style="margin-left: 20px;" width="150px" src="./download-removebg-preview (1).png" alt="">
+    <ul>
+        <li><a href=""><i style="margin-right: 10px;" class="fa-solid fa-house"></i>Home</a></li>
+        <li id="shorts"><a href=""><img  width="35px"  src="./download__4_-removebg-preview.png">Shorts</a>
+        </li>
+        <li><a href=""><img style="margin-right: 10px;" width="20px" src="./sub.png">Subscription</a></li>
+    </ul>
+    <hr>
+    <ul>
+        <li><a href=""><img style="margin-right: 14px;" width="20px" src="./lib.png">Library</a></li>
+        <li><a href=""><i style="margin-right: 15px;" class="fa-solid fa-clock-rotate-left"></i>History</a></li>
+    </ul>
+    <hr>
+    <p style="margin-left: 35px;">Sign in to like videos,<br> comment, and subscribe.</p>
+    <button type="button" class="btn btn-outline-primary"><i style="margin-left: 3px;" class="fa-solid fa-user"></i>Sign in</button>
+    <hr>
+    <p style="font-size: large; margin-left: 30px;">Explore</p>
+    <ul class="list">
+    <li><a href=""><i class="fa-solid fa-fire"></i>Trending</a></li>
+    <li><a href=""><i class="fa-solid fa-music"></i>Music</a></li>
+    <li><a href=""><i class="fa-solid fa-gamepad"></i>Gaming</a></li>
+    <li style="margin-left: 5px;"><a href=""><i style="margin-right: 20px;" class="fa-regular fa-newspaper"></i>News</a></li>
+    <li><a href=""><i class="fa-solid fa-trophy"></i>Sports</a></li>
+    </ul>
+    <hr>
+    <ul>
+    <li><a href=""><i class="fa-solid fa-circle-plus"></i>Browse Channel</a></li>
+    </ul>
+    <hr>
+    <p style="font-size: large; margin-left: 30px;">More From YouTube</p>
+    <ul>
+        <li><a href=""><i style="margin-right: 15px;" class="fa-regular fa-circle-play"></i>YouTube Music</a></li>
+        <li><a href=""><i style="margin-right: 15px;" class="fa-brands fa-youtube"></i>YouTube Kids</a></li>
+        <li><a href=""><i style="margin-left: -2px; margin-right: 15px;" class="fa-solid fa-tv"></i>YouTube TV</a></li>
+    </ul>
+    <hr>
+    <ul>
+        <li><a href=""><i class="fa-solid fa-gear"></i>Setting</a></li>
+        <li><a href=""><i style="margin-left: 5px; margin-right: 10px;" class="fa-regular fa-flag"></i>Report History</a></li>
+        <li><a href=""><i style="margin-left: 5px;  margin-right: 10px;" class="fa-regular fa-circle-question"></i>Help</a></li>
+        <li><a href=""><i class="fa-solid fa-triangle-exclamation"></i>Send Feedback</a></li>
+    </ul>
+    <hr>
+    <p style="margin-left: 30px; font-size: small;"><b>Press Copyright <br> Contact us Creators <br> Advertise Developers</b> </p>
+    <p style="margin-left: 30px; font-size: small;"><b>Terms Privacy Policy & Safety  How YouTube works <br> Test new features</b> </p>
+    <p><i style="margin-left: 30px; margin-right: 10px;" class="fa-regular fa-copyright"></i>2023 Google LLC</p>
+    </div>
+    
+</div>
+    <form class="d-flex">
+        <input style="font-size: 1.2em;" class="form-control me-2 " type="search" placeholder="Search" aria-label="Search" >
+        <button style="margin-left: -10px;" id="b" class="btn btn-outline-secondary " type="submit"><i style="border: none; font-size: 1.2em;" class="fa-solid fa-magnifying-glass"></i></button>
+        <i style="font-size: 1.5em;margin-left: 30px;margin-bottom: -200px;" class="fa-solid fa-microphone mt-3"></i>
+      </form>
+      
+        <i style="margin-top: 8px; font-size: 1.5em;" class="fa-solid fa-video"></i>
+      <i style="margin-top: 8px;margin-left: 25px; margin-right: -60px;font-size: 1.5em;" class="fa-regular fa-bell"></i>
+      
+      
+ <img style="border: 1px solid blue; border-radius: 30px; margin-left: 100px; margin-right: -18px;" width="50px" src="./fotor_2023-2-5_14_39_0.jpg" alt="">
+    </div>
+</nav>
+<div class="row">
+<div class="col-1">
+  <ul>
+    <li><a href=""><i style="font-size: 25px" class="fa-solid fa-house"></i><p style="margin-left: -5px;">Home</p></a></li>
+    <li style="margin-left: -12px;"><a href=""><img  width="55px" src="./download__4_-removebg-preview.png" alt=""><p style="margin-left: 7px;">Shorts</p></a></li>
+    <li><a href=""><img width="35px" src="./sub.png" alt=""><p style="margin-left: -24px;">Subscription</p></a></li>
+    <li><a href=""><img width="35px" src="./lib.png" alt=""><p style="margin-left: -3px;">Library</p></a></li>
+  </ul>
+</div>
+<div class="col-11">
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn bg-dark text-white c ">All</button>
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn c z"><span id="z">JavaScript</span></button>
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn c u"><span id="u">WebSite</span></button>
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn c n"><span id="n">Computer</span></button>
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn c a"><span id="a">Live</span></button>
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn c i"><span id="i">AI</span></button>
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn c r"><span id="r">Comedy</span></button>
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn c e"><span id="e">Reading</span></button>
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn c t"><span id="t">Gadgets</span></button>
+    <button style="margin-right: 5px;font-size: 18px;" type="button" class="btn c y"><span id="y">Zunair</span></button>
+    <button style="font-size: 18px;" type="button" class="btn  c"><span id="u">Recently Uploaded</span></button>
+<br>
+    <div><br>
+        <figure class="figure">
+            <img id="first" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/aoUDmgDFbLs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDlnChl-JSrzartfx0RO3jJxqczEA" class="figure-img img-fluid me-2 " alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Foods in Canada </b><br><span style="margin-left: 60px;font-weight: bold;">Zia Tabarak <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img id="sec" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/K3qu6DyQXaI/hqdefault.jpg?sqp=-oaymwE2COADEI4CSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgBpAWAAuADigIMCAAQARhbIFsoWzAP&rs=AOn4CLBBuZij7DFLjVIiz4SCAe97jD27HQ" class="figure-img img-fluid me-2" alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Kahani Suno 2.O </b><br><span style="margin-left: 60px;font-weight: bold;">Kaifi Khalil <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img id="third" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/u-BEIQ_0mI8/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAT-j7gHqOQBwX8qptcPzkFEi0hrA" class="figure-img img-fluid " alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Kuch Un Kahi  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure><br>
+
+          <figure class="figure">
+            <img id="four" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/SrrCc5JdUHg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDAB3JJFyDAIyeZocuxv0CXXn_Dog" class="figure-img img-fluid me-2 " alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Muqaddar Ka Sitaara </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img id="five" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/29d8bi2uXKE/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAJD4BDyrohCWd-EOfNk0eN-VNwnw" class="figure-img img-fluid me-2" alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Agr Gher Mehram Se Piyar Ho Jae </b><br><span style="margin-left: 60px;font-weight: bold;">Tuaha Ibn e Jalil <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img id="six" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/wt8n7j32z5s/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDW68WfaZMI--P3zis-P-0bc5ddLA" class="figure-img img-fluid " alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Pakistan </b><br><span style="margin-left: 60px;font-weight: bold;">Gora <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure><br>
+
+          <figure class="figure">
+            <img id="seven" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/YWMjZ5vGRwg/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCj93erRTalrYFlgORCIUXsi81j_Q" class="figure-img img-fluid me-2 " alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">My Yahama R6 </b><br><span style="margin-left: 60px;font-weight: bold;">Irfan Junejo <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img id="eight" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/AgbZClWbORc/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBCbqxx0366T6JoO1gWojcmAGmULA" class="figure-img img-fluid me-2" alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Football With Boys </b><br><span style="margin-left: 60px;font-weight: bold;">Hamza Ibrahim <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img id="nine" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/MP7Mf5sjJZE/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLD19w3fzG7nLtAz474_df7m8kPUZw" class="figure-img img-fluid " alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">How Muslims Shop In Ramadan </b><br><span style="margin-left: 60px;font-weight: bold;">Saudi Sheikh <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure><br>
+
+          <figure class="figure">
+            <img id="ten" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/PwjX-185MRg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB4RMur7xMBAA2ZDwmFlq5k0q5e6Q" class="figure-img img-fluid me-2 " alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Types For a Productive Routine </b><br><span style="margin-left: 60px;font-weight: bold;">Tuaha Ibn e Jalil <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img id="ele" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/vQVYJ1AN6_4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDeganVYx5ECD8dRPJ5gqSKJBtLdQ" class="figure-img img-fluid me-2" alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure>
+
+          <figure class="figure">
+            <img id="twel" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/gLaUMQGSk6M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByw19rRa4AcZHk951QvHWhajY_TA" class="figure-img img-fluid " alt="...">
+            <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Beautiful Track In Madina </b><br><span style="margin-left: 60px;font-weight: bold;">Zubair Riaz <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+          </figure><br>
+          <hr>
+          <div class="shorts1">
+<img width="100px" src="./shorts logo.png" alt="">  
+</div><br>
+<div class="shorts2">
+<figure class="figure">
+  <img id="fi" style="border-radius: 20px;height: 440px;" width="260px" src="https://i.ytimg.com/vi/molUJEBPky0/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCLQU-hvrXiUJwXI0naA-QQXGk2IQ" class="figure-img img-fluid me-2" alt="...">
+  <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+</figure>
+<figure class="figure">
+  <img id="se" style="border-radius: 20px;height: 440px;" width="260px" src="https://i.ytimg.com/vi/Xk_INz6k2KU/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBtBSHWV_z9MXuytjKE-3O8gOP3Ow" class="figure-img img-fluid me-2" alt="...">
+  <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+</figure>
+<figure class="figure">
+  <img id="th" style="border-radius: 20px;height: 440px;" width="260px" src="https://i.ytimg.com/vi/0U09gDS3_yA/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLDNMPmhiH6fBNQTYE2z7CGgjVeWqg" class="figure-img img-fluid me-2" alt="...">
+  <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+</figure>
+<figure class="figure">
+  <img id="fo" style="border-radius: 20px;height: 440px;" width="260px" src="https://i.ytimg.com/vi/Cztnkha6pL4/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBmz38BRRpmdzYECc-XANB-2lyStA" class="figure-img img-fluid me-2" alt="...">
+  <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+</figure><br>
+<figure class="figure">
+  <img id="fi" style="border-radius: 20px;height: 440px;" width="260px" src="https://i.ytimg.com/vi/HA6i1GMPvEc/hq720_2.jpg?sqp=-oaymwEdCMAEENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLCPK2XcGDajhXoWh_Q_goTCTkfh1g" class="figure-img img-fluid me-2" alt="...">
+  <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+</figure>
+<figure class="figure">
+  <img id="si" style="border-radius: 20px;height: 440px;" width="260px" src="https://i.ytimg.com/vi/HMXVbQpIMx0/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBAwdTu0GHXjcqvYY8WZjqH-K6RMw" class="figure-img img-fluid me-2" alt="...">
+  <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+</figure>
+<figure class="figure">
+  <img id="sev" style="border-radius: 20px;height: 440px;" width="260px" src="https://i.ytimg.com/vi/yQCio0T0U7Y/hq720_2.jpg?sqp=-oaymwEdCJQDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBliyJh3B-8E_pJDyr1NhVEOKHUaQ" class="figure-img img-fluid me-2" alt="...">
+  <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+</figure>
+<figure class="figure">
+  <img id="ei" style="border-radius: 20px;height: 440px;" width="260px" src="https://i.ytimg.com/vi/m2TM8NB-7Sk/hq720_2.jpg?sqp=-oaymwEdCJUDENAFSFXyq4qpAw8IARUAAIhCcAHAAQbQAQE=&rs=AOn4CLBfXzTJfy_HlFplf_MuaFLHOz1fjA" class="figure-img img-fluid me-2" alt="...">
+  <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+</figure><br>
+</div><br>
+<div class="trend">
+<img style="margin-top: -18px;" width="60px" src="./fire-flame-illustration-design-template-image-free-vector-removebg-preview.png" alt=""><span style="font-size: x-large;font-weight: bold;">Trending</span>
+</div><br>
+          
+    </div>
+    <figure class="figure">
+      <img id="first" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/wXKuUBdnCVg/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBesjS9DJnFFPNBBS8sZzbkQF1n-g" class="figure-img img-fluid me-2 " alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Foods in Canada </b><br><span style="margin-left: 60px;font-weight: bold;">Zia Tabarak <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure>
+
+    <figure class="figure">
+      <img id="sec" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/cx75cLnTsIw/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAN7iAP-PoJ5mf5xxPRDB01GcDH9w" class="figure-img img-fluid me-2" alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Kahani Suno 2.O </b><br><span style="margin-left: 60px;font-weight: bold;">Kaifi Khalil <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure>
+
+    <figure class="figure">
+      <img id="third" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/fQpH9PSmlzQ/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC1eW2VTnVRaTASH9bW8mwA1oIN3A" class="figure-img img-fluid " alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Kuch Un Kahi  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure><br>
+
+    <figure class="figure">
+      <img id="four" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/Wgo9TaBcuJ4/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLCX4v7xnB_YQoChob1HZSZCpzLMJg" class="figure-img img-fluid me-2 " alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Muqaddar Ka Sitaara </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure>
+
+    <figure class="figure">
+      <img id="five" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/q-mtlpkmvyA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLC9VHI5Gj97Vs8XssaGnMVuAC5E2A" class="figure-img img-fluid me-2" alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Agr Gher Mehram Se Piyar Ho Jae </b><br><span style="margin-left: 60px;font-weight: bold;">Tuaha Ibn e Jalil <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure>
+
+    <figure class="figure">
+      <img id="six" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/ohO2A47TyV0/hq720.jpg?sqp=-oaymwE2CNAFEJQDSFXyq4qpAygIARUAAIhCGAFwAcABBvABAfgB_gmAAtAFigIMCAAQARhNIFooZTAP&rs=AOn4CLC0j8ovxG-fNo_qOjfaAhVNfQgqtQ" class="figure-img img-fluid " alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Pakistan </b><br><span style="margin-left: 60px;font-weight: bold;">Gora <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure><br>
+
+    <figure class="figure">
+      <img id="seven" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/isdQsBs5U3U/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAKm-t_3dEIEOEB1Czof_VsluknJw" class="figure-img img-fluid me-2 " alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">My Yahama R6 </b><br><span style="margin-left: 60px;font-weight: bold;">Irfan Junejo <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure>
+
+    <figure class="figure">
+      <img id="eight" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/wxqGxZLOiGM/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLBzWBAjKVgOLB2u5knf0mvS_NWHzA" class="figure-img img-fluid me-2" alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Football With Boys </b><br><span style="margin-left: 60px;font-weight: bold;">Hamza Ibrahim <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure>
+
+    <figure class="figure">
+      <img id="nine" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/jdx-AmnFgTs/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLAm-KALydXryxZElpjWVZqR4HY-Ig" class="figure-img img-fluid " alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">How Muslims Shop In Ramadan </b><br><span style="margin-left: 60px;font-weight: bold;">Saudi Sheikh <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure><br>
+
+    <figure class="figure">
+      <img id="ten" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/useTssTsBTA/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLDMTLGFRJyut03PZNX1FbVB-fJLeA" class="figure-img img-fluid me-2 " alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Types For a Productive Routine </b><br><span style="margin-left: 60px;font-weight: bold;">Tuaha Ibn e Jalil <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure>
+
+    <figure class="figure">
+      <img id="ele" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/BCYc2zTQDkc/hqdefault.jpg?sqp=-oaymwEcCOADEI4CSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLB2coj42b_0AR8HNN7K4N9dcxdW_Q" class="figure-img img-fluid me-2" alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Mujhe Piyar Hoa Tha  </b><br><span style="margin-left: 60px;font-weight: bold;">Ary Digital <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure>
+
+    <figure class="figure">
+      <img id="twel" style="border-radius: 20px;" width="370px" src="https://i.ytimg.com/vi/gLaUMQGSk6M/hq720.jpg?sqp=-oaymwEcCNAFEJQDSFXyq4qpAw4IARUAAIhCGAFwAcABBg==&rs=AOn4CLByw19rRa4AcZHk951QvHWhajY_TA" class="figure-img img-fluid " alt="...">
+      <figcaption ><img width="40px" src="./fotor_2023-2-5_14_39_0.jpg" alt=""><b style="margin-left: 20px;">Beautiful Track In Madina </b><br><span style="margin-left: 60px;font-weight: bold;">Zubair Riaz <i class="fa-solid fa-circle-check"></i></span> <br><span style="margin-left: 60px;"> 2M views . 1 hour</span></figcaption>
+    </figure>
+</div>
+
+
+
+</div>
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
